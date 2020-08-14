@@ -31,19 +31,42 @@
   padding: 100px 115px;
 }
 
+.contentForm h2 {
+  margin-bottom: 30px;
+}
+
 .contentForm form .input-form input{
   width: 300px;
-  padding: 10px;
+  padding: 16px;
   font-size: 16px;
   display: block;
   margin-top: 3px;
+  border: none;
+  outline: 0;
+  border-radius: 8px;
+  /* font-family: Archivo; */
+}
+
+.input-text{
+  background: #FAFAFC;
+  
+}
+
+.input-submit{
+  background: #DCDCE6;
+  font-weight: 600;
   font-family: Archivo;
+}
+
+.forgot-password{
+  text-decoration: none;
+  color: #9C98A6;
 }
 
 .warning{
   display: flex;
   justify-content: space-between;
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 15px;
   margin-bottom: 25px;
 }

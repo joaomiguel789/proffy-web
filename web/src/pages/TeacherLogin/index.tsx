@@ -17,12 +17,12 @@ function TeacherLogin(){
       <div className="contentForm">
         <form action="" >
         <h2>Fazer login</h2>
-          <div className="input-form">
-            <input type="text" placeholder="E-mail"/>
+          <div className="input-form text">
+            <input type="text" className="input-text" placeholder="E-mail"/>
           </div>
           
           <div className="input-form">
-            <input type="text" placeholder="Senha"/>
+            <input type="password" className="input-text" placeholder="Senha"/>
           </div>
 
           <div className="warning">
@@ -33,12 +33,12 @@ function TeacherLogin(){
             </label>
             </div>
             <div>
-              <a href="">Esqueci minha senha</a>
+              <a href="" className="forgot-password">Esqueci minha senha</a>
             </div>
           </div>
 
           <div className="input-form">
-            <input type="submit" value="Entrar"/>
+            <input type="submit" value="Entrar" className="input-submit"/>
           </div>
         </form>       
       </div>  
